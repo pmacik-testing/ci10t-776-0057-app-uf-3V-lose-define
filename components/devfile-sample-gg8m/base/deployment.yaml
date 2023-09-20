@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gg8m
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-776-0057-tenant/ci10t-776-0057-app/devfile-sample-gg8m@sha256:c73d0fd65dca272eb1319be436809c5c18c611618709f010597d9bdb3be1bb22
         name: my-nodejs
         ports:
         - containerPort: 3001
